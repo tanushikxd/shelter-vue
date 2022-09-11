@@ -1,0 +1,49 @@
+@import "./vars.scss";
+@import "./global.scss";
+
+.header {
+  background-image: linear-gradient(rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+  background-repeat: no-repeat;
+  background-position: inherit;
+
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &-logo {
+    margin: 60px 0 0 40px;
+    &_title {
+      line-height: 1.1;
+      margin-bottom: 10px;
+      color: $mainColor;
+    }
+    &_text {
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 10%;
+      line-height: 15px;
+      color: $white;
+    }
+  }
+}
+.nav {
+  margin-bottom: 20px;
+  &-menu {
+    &_items {
+      margin-top: 46px;
+      margin-right: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 35px;
+      justify-content: flex-end;
+    }
+  }
+}
+.list {
+  color: $white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

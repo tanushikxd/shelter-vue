@@ -1,0 +1,14 @@
+.about {
+    &-container{
+        display: flex;
+    }
+  &-pic {
+    &_img {
+      background-image: url(../../assets/images/about-pets.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 300px;
+      height: 409px;
+    }
+  }
+}
